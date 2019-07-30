@@ -4,7 +4,7 @@ java_library(
     name = "wc-common",
     srcs = glob(["wc-common/src/main/java/myproject/apache/beam/examples/*.java"]),
     deps = [
-        "@maven//:org_apache_maven_surefire_maven-surefire-plugin",
+        "@maven//:org_apache_maven_surefire_surefire_junit47",
         "@maven//:org_apache_maven_plugins_maven-compiler-plugin",
         "@maven//:org_codehaus_mojo_exec-maven-plugin",
         "@maven//:org_apache_beam_beam-runners-direct-java",

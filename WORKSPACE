@@ -16,7 +16,8 @@ maven_install(
     name = "maven",
     artifacts = [
         "org.apache.maven.surefire:surefire-junit47:2.21.0",
-        "org.apache.maven.plugins:maven-surefire-plugin:2.21.0",
+        "org.apache.maven.plugins:maven-jar-plugin:3.0.2",
+        #"org.apache.maven.plugins:maven-surefire-plugin:2.21.0",
         "org.codehaus.mojo:exec-maven-plugin:1.6.0",
         "org.apache.beam:beam-runners-direct-java:2.13.0",
         "org.apache.beam:beam-runners-reference-java:2.13.0",
